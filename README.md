@@ -10,7 +10,7 @@
 > Our (I.A.N.) app is a tutoring app that will provide a range of tutoring services to it's users. You can find face-to-face tutoring, online tutoring, a Chatbot and so much more on (I.A.N.). You can set up your tutoring sessions, access communities of people all studying the same subject, and more.
 
 ## App Functions:
-> Student (Customer)
+Student (Customer)
 - Can create/modify their student profile
 
 Tutor (Provider)
