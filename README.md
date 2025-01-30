@@ -19,10 +19,11 @@ Student (Customer)
 Tutor (Provider)
 - Can create/modify their tutor profile
 - Can create listings for their tutor services
-- Can update their listing and/or rates
+- Can update their listing schedule and/or rates
 - Can reply to reviews from customers
 - Can post recommended course materials if they are needed
-- Can delete listing
+- Can delete posted listings
+- Can accept and/or deny tutor service requests from customers 
 
 SysAdmin
 - Can approve/ban tutors and students
