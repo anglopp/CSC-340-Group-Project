@@ -11,9 +11,12 @@
 
 ## App Functions:
 Student (Customer)
-- Can create/modify their student profile
-- Can give ratings to tutors
-- Can sort tutors by what course they are tutoring
+- Can create/modify their student profile through user settings for personlization
+- The user can join public scheduled tutoring classes
+- Can lookup for any available subjects
+- Can pick from a list of available tutors
+- Give tutors a review
+- The customer can subscribe for a one-on-one scheduled tutoring session
 - Can utilize a TBD API to access recommended course materials (whether course specific or just useful for studying)
 
 Tutor (Provider)
