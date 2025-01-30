@@ -18,5 +18,5 @@ Tutor (Provider)
 
 SysAdmin
 - Can approve/ban tutors and students
-- Can view and edit classes/communities
+- Can view and delete classes/communities
 - Can view and delete comments/reviews
