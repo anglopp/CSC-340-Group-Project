@@ -11,7 +11,15 @@
 
 ## App Functions:
 Student (Customer)
-- Can create/modify their student profile
+- Can create/modify their student profile through user settings for personlization
+- The user can manually search topics 
+- The user can join communities who share the same interests of the same topic (forums?)
+- The user can join public scheduled tutoring classes
+- Can lookup for any available subjects 
+- Can pick from a list of available tutors
+- Give tutors a review and recommend tutors to other users
+- The customer can subscribe to newsletters about new topics, tutoring services, and new features
+- The customer can subscribe for a one-on-one scheduled tutoring session
 
 Tutor (Provider)
 - Can create/modify their tutor profile
