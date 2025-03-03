@@ -135,7 +135,75 @@ body{
     cursor: pointer;
 }
 
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
 
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+/* Align user information box with the pfp.  Very simple besides learning flex: https://www.w3schools.com/cssref/css3_pr_flex.php*/
+.content-container {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* To place the current user information */
+.user-box {
+    width: 30%;
+    background: white;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+.upcoming{
+    text-align: center;
+    align-items: center;
+}
+
+.new-availability {
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.pure-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Right content area (use f4f4f4 to blend in with background) */
+.pfp {
+    width: 55%;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
 
 .the_footer{
     border-top: 1px solid gray;
