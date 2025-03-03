@@ -1,0 +1,160 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<!--Utilizing href pure-CSS as recommended-->
+<head>
+  <title>Tutelage</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+        integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+</head>
+<body>
+
+<header>
+  <div class="pure-menu pure-menu-horizontal">
+    <ul class="pure-menu-list">
+      <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+
+        <a href="#" id="menuLink1" class="pure-menu-link">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/640px-Hamburger_icon.svg.png" alt="Menu Image" width="25" height="25">
+        </a>
+
+        <ul class="pure-menu-children">
+          <li class="pure-menu-item">
+            <a href="#" class="pure-menu-link">Home</a>
+          </li>
+          <li class="pure-menu-item">
+            <a href="#" class="pure-menu-link">Commitments</a>
+          </li>
+          <li class="pure-menu-item">
+            <a href="#" class="pure-menu-link">About Us</a>
+          </li>
+        </ul>
+
+      </li>
+    </ul>
+
+  </div>
+
+  <img src="images/Tutelege.png" alt="Tutelage Logo"
+       width="145" height="91">
+
+</header>
+
+<!-- Main content area with spacing -->
+<main>
+
+  <!-- Print all current postings, allow for deleting them -->
+  <div class = "upcoming">
+    <h3>Messages from Students</h3>
+    <h5>Only confirmed students will appear under this list</h5>
+    <br>
+
+    <table class="pure-table pure-table-bordered">
+      <thead>
+      <tr>
+        <th>PFP</th>
+        <th>Student</th>
+        <th>Course</th>
+        <th>Last Message </th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td> <img src ="https://media.istockphoto.com/id/1351445530/photo/african-student-sitting-in-classroom.jpg?s=612x612&w=0&k=20&c=1ICaZ03iFLzDmxfBkfDkmBGSgj1SDEpsM3eSDgB1KBk=" width ="100" height="75" >
+        </td>
+        <td>Larry June</td>
+        <td>CSC 340</td>
+        <td>Larry: Yo I totally messed up my schedule and am going to have an appointment during our session time :o
+        any way that we can reschedule it?</td>
+      </tr>
+      </tbody>
+    </table>
+
+    <form class="pure-form">
+      <fieldset class="pure-group">
+        <textarea class="pure-input-1" placeholder="Reply?"></textarea>
+      </fieldset>
+      <button type="submit" class="pure-button pure-input-1-2 pure-button-primary">Reply</button>
+    </form>
+
+    <br><br><br><br>
+
+    <table class="pure-table pure-table-bordered">
+      <thead>
+      <tr>
+        <th>PFP</th>
+        <th>Student</th>
+        <th>Course</th>
+        <th>Last Message </th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td> <img src ="data:image/jpeg;base64,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" width ="100" height="75" >
+        </td>
+        <td>Bob Freakly</td>
+        <td>BIO 112</td>
+        <td>You: For sure!  Excited to meet you tomorrow too, going to finish creating a little worsheet we can go over tomorrow.</td>
+      </tr>
+      </tbody>
+    </table>
+
+    <form class="pure-form">
+      <fieldset class="pure-group">
+        <textarea class="pure-input-1" placeholder="Reply?"></textarea>
+      </fieldset>
+      <button type="submit" class="pure-button pure-input-1-2 pure-button-primary">Reply</button>
+    </form>
+
+    <br><br><br><br>
+
+    <table class="pure-table pure-table-bordered">
+      <thead>
+      <tr>
+        <th>PFP</th>
+        <th>Student</th>
+        <th>Course</th>
+        <th>Last Message </th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td> <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMknCAxC12p8ntlDNiFY8GXac65z77_h7O4g&s" width ="100" height="75" >
+        </td>
+        <td>Hugh Mungus</td>
+        <td>BIO 112</td>
+        <td>No messages have been sent in this conversation yet.  Don't be nervous, reach out to them before your first meeting!</td>
+      </tr>
+      </tbody>
+    </table>
+
+    <form class="pure-form">
+      <fieldset class="pure-group">
+        <textarea class="pure-input-1" placeholder="Reply?"></textarea>
+      </fieldset>
+      <button type="submit" class="pure-button pure-input-1-2 pure-button-primary">Reply</button>
+    </form>
+
+  </div>
+
+
+
+</main>
+
+
+<!-- Place the footer -->
+<footer>
+
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/X_logo_2023_%28white%29.png/480px-X_logo_2023_%28white%29.png" alt ="X" width ="25" height="20">
+  <img src="https://img.icons8.com/win10/512/FFFFFF/instagram-new.png" alt ="Instagram" width ="35" height="21">
+  <img src="https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/636e0a6cc3c481a15a141738_icon_clyde_white_RGB.png" alt ="Discord" width ="25" height ="20">
+  <img src="https://img.icons8.com/m_sharp/512/FFFFFF/facebook-new.png" alt ="Facebook" width ="25" height ="20">
+
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
