@@ -147,7 +147,6 @@ body{
 }
 
 
-
 .the_footer{
     border-top: 1px solid gray;
     display: flex;
@@ -246,7 +245,31 @@ body{
     height: 80vh;
 }
 
+.login_form{
+    background-image: url(images/search_background.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 50px;
+    height: 80vh;
+}
 
+.login_user label{
+    font-size: 25px;
+}
+.login_user input{
+    width: 500px;
+    height: 50px;
+    padding: 0px 20px;
+    border-radius: 50px;
+}
 
-
-
+.login_user_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
