@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Transactions</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+	<!-- Hamburger Menu Setup -->
+    <header>
+        <h1>View Tutelage Transactions</h1>
+        <div class="pure-menu pure-menu-horizontal">
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item pure-menu-has-children">
+                    <a href="#" id="menuLink1" class="pure-menu-link">
+                        <img src="imagesa/hamburger_icon.png" alt="Menu" width="30" height="30">
+                    </a>
+                    <ul class="pure-menu-children" id="adminMenu">
+                        <li class="pure-menu-item">
+                            <a href="AdminLogin.html" class="pure-menu-link">Login</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="AdminDashboard.html" class="pure-menu-link">Dashboard</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="AdminUsers.html" class="pure-menu-link">Manage Users</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="AdminListings.html" class="pure-menu-link">Manage Listings</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="AdminStatistics.html" class="pure-menu-link">View Statistics</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="AdminTransactions.html" class="pure-menu-link">View Transactions</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        <h2>Transaction Records</h2>
+        <p>Below is a list of recent transactions on the platform.</p>
+        <table border="1" width="100%">
+            <tr>
+                <th>Date</th>
+                <th>Student Name</th>
+                <th>Student Image</th>
+                <th>Tutor</th>
+                <th>Tutor Image</th>
+                <th>Amount</th>
+                <th>Payment Method</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>2025-02-25</td>
+                <td>Batman</td>
+				<td><img src="imagesa/student_1.jpg" alt="Batman" class="transaction-img"></td>
+                <td>Professor Spruce</td>
+                <td><img src="imagesa/prof_7.jpeg" alt="Professor Spruce" class="transaction-img"></td>
+                <td>$200</td>
+                <td>Credit Card</td>
+                <td>Completed</td>
+            </tr>
+            <tr>
+                <td>2025-02-24</td>
+                <td>Sheldon Cooper</td>
+				<td><img src="imagesa/student_2.jpg" alt="Sheldon Cooper" class="transaction-img"></td>
+                <td>Professor Linux</td>
+                <td><img src="imagesa/prof_12.jpeg" alt="Professor Linux" class="transaction-img"></td>
+                <td>$30</td>
+                <td>PayPal</td>
+                <td>Pending</td>
+            </tr>
+            <tr>
+                <td>2025-02-24</td>
+                <td>Monkey D. Luffy</td>
+				<td><img src="imagesa/student_3.jpg" alt="Monkey D. Luffy" class="transaction-img"></td>
+                <td>Doctor Boom</td>
+                <td><img src="imagesa/prof_16.jpeg" alt="Doctor Boom" class="transaction-img"></td>
+                <td>$300,000</td>
+                <td>Sent in 27 Cheerios</td>
+                <td>Denied</td>
+            </tr>
+        </table>
+    </main>
+
+	<!-- Hamburger Menu Toggling -->
+    <script>
+        document.getElementById('menuLink1').addEventListener('click', function() {
+            var menu = document.getElementById('adminMenu');
+            menu.classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
