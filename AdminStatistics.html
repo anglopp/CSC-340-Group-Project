@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>View Statistics</title>
     <link rel="stylesheet" href="style2.css">
-    <script defer src="script.js"></script> <!-- Link JavaScript -->
 </head>
 <body>
+
+	<!-- Hamburger Menu Setup -->
     <header>
         <h1>View Tutelage Statistics</h1>
         <div class="pure-menu pure-menu-horizontal">
@@ -63,11 +64,11 @@
         </div>
     </footer>
 
+	<!-- Hamburger Menu Toggling -->
     <script>
-        // Toggle hamburger menu visibility
         document.getElementById('menuLink1').addEventListener('click', function() {
             var menu = document.getElementById('adminMenu');
-            menu.classList.toggle('show'); // Add or remove 'show' class to toggle visibility
+            menu.classList.toggle('show');
         });
     </script>
 

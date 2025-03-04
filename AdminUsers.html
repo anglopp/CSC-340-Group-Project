@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manage Users</title>
     <link rel="stylesheet" href="style2.css">
-    <script defer src="script.js"></script>	
 </head>
 <body>
+
+	<!-- Hamburger Menu Setup -->
     <header>
         <h1>Manage Tutelage Users</h1>
         <div class="pure-menu pure-menu-horizontal">
@@ -46,7 +47,7 @@
         <p>Below is a list of users pending approval.</p>
         <table border="1" width="100%">
             <tr>
-                <th>Picture</th> <!-- New column for pictures -->
+                <th>Picture</th>
                 <th>Name</th>
                 <th>Email</th>
                 <th>Account Type</th>
@@ -96,11 +97,11 @@
         </div>
     </footer>
 
+	<!-- Hamburger Menu Toggling and Pop-up Message-->
     <script>
-        // Toggle hamburger menu visibility
         document.getElementById('menuLink1').addEventListener('click', function() {
             var menu = document.getElementById('adminMenu');
-            menu.classList.toggle('show'); // Add or remove 'show' class to toggle visibility
+            menu.classList.toggle('show');
         });
 
         function approveUser(name) {
