@@ -1,0 +1,188 @@
+/* General Page Styling */
+
+/* Ensures the body takes up the full height */
+html, body {
+  height: 100%; /* Full height for the body and html */
+  margin: 0; /* Remove default margins */
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+}
+
+/*Makes it so main content takes up space*/
+main {
+  flex: 1;  /* Takes up available space, pushing footer down */
+}
+
+/* Header */
+header {
+  background: #444; /* Lighter background for header */
+  color: white;
+  text-align: center; /* Centering the header title */
+  padding: 15px;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center; /* Ensures the title is centered */
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background: url("imagesa/search_background.png") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+/* Logo Centering */
+.intro {
+  text-align: center;
+  margin-top: 50px; /* Space from top */
+}
+
+.logo {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+/* Login Form Container */
+.login_form {
+  width: 400px;
+  margin: 50px auto; /* Centering the form */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.login_user h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login_user label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.login_user input {
+  width: 94%;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login_user_button input {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.login_user_button input:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Section */
+footer {
+  background: #444; /* Lighter background for footer */
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Footer content styles */
+footer div {
+  margin-bottom: 10px;
+}
+footer h2 {
+  margin: 0;
+  font-size: 18px;
+}
+footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+/* Center the Welcome Admin & Select an Option text */
+.center-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style the Hamburger Menu */
+.pure-menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.pure-menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pure-menu-children {
+  display: none; /* Initially hidden */
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  list-style: none;
+  margin-top: 5px;
+}
+
+.pure-menu-children .pure-menu-item {
+  padding: 8px 10px;
+}
+
+.pure-menu-children .pure-menu-item a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.pure-menu-children .pure-menu-item a:hover {
+  background: #f4f4f4;
+}
+
+/* Show the menu when active */
+.pure-menu-children.show {
+  display: block;
+}
+
+/* Table Styling for Admin Users page */
+
+/* Style for the table cells */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    width: 200px; /* Fixed width for the images and other cells */
+    height: 200px; /* Fixed height for the images and other cells */
+}
+
+td img {
+    width: 100%; /* Make the image stretch to fit the width of the cell */
+    height: 100%; /* Make the image stretch to fit the height of the cell */
+    object-fit: cover; /* Ensures that the image doesn't get distorted */
+}
+
+/* Specific styling for the hamburger menu image */
+#menuLink1 img {
+    width: 30px; /* Set specific width for hamburger image */
+    height: 30px; /* Set specific height for hamburger image */
+}

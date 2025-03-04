@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style2.css">
+    <script defer src="script.js"></script> <!-- Link JavaScript -->
+</head>
+
+<body>
+
+    <header>
+        <h1>Admin Dashboard</h1>
+        <div class="pure-menu pure-menu-horizontal">
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item pure-menu-has-children">
+                    <a href="#" id="menuLink1" class="pure-menu-link">
+                        <img src="imagesa/hamburger_icon.png" alt="Menu" width="30" height="30">
+                    </a>
+                    <ul class="pure-menu-children" id="adminMenu">
+                        <li class="pure-menu-item">
+                            <a href="AdminLogin.html" class="pure-menu-link">Login</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="AdminDashboard.html" class="pure-menu-link">Dashboard</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="AdminUsers.html" class="pure-menu-link">Manage Users</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="AdminListings.html" class="pure-menu-link">Manage Listings</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="AdminStatistics.html" class="pure-menu-link">View Statistics</a>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="AdminTransactions.html" class="pure-menu-link">View Transactions</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        <h2 class="center-text">Welcome, Admin</h2>
+        <p class="center-text">Select an option from the menu to use the Admin services.</p>
+    </main>
+    
+    <footer class="the_footer">
+        <div>
+            <h2>About us</h2>
+            <p>Demo</p>
+        </div>
+        <div>
+            <h2>Contact Us</h2>
+            <p>000-0000-0000</p>
+        </div>
+    </footer>
+
+    <script>
+        // Toggle hamburger menu visibility
+        document.getElementById('menuLink1').addEventListener('click', function() {
+            var menu = document.getElementById('adminMenu');
+            menu.classList.toggle('show'); // Add or remove 'show' class to toggle visibility
+        });
+    </script>
+
+</body>
+</html>
